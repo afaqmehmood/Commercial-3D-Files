@@ -1,0 +1,237 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "progressive_menu_iibVge": {
+      "type": "progressive-menu",
+      "settings": {}
+    },
+    "rich_text_image_YCFVYg": {
+      "type": "rich-text-image",
+      "blocks": {
+        "heading_HUqM47": {
+          "type": "heading",
+          "settings": {
+            "heading": "Purpose",
+            "heading_size": "h1"
+          }
+        },
+        "text_67RNkA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The purpose of this page is offer an explanation of various factors that affect the surface quality, strength, and precision of 3d prints parts.  Many of the files available for print on commercial3dfiles.com such as RC Toys and Gearblocs Building System components require a higher level of precision due to components requiring fit and function.  We hope the information offered here will help you go from printing objects for display to printing functional devices with intermeshing parts that fit and function as intended.  </p>"
+          }
+        },
+        "image_MKbjC3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/track_image.jpg"
+          }
+        },
+        "heading_zenteg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tools of Precision",
+            "heading_size": "h1"
+          }
+        },
+        "text_VBjVjc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Before you can manufacture anything with precision,  you must have ways to precisely measure what you make. Figure 1 below is a selection of tools we recommend for printing parts that need to fit together and function in a specific way.  </p>"
+          }
+        },
+        "image_AaUDfc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TOOLS_FOR_PRECISION_3D_PRINTING.jpg"
+          }
+        },
+        "caption_g3hmHQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "A selection of tools used for precision 3d printing",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_gEnPEM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Digital Calipers",
+            "heading_size": "h1"
+          }
+        },
+        "text_7QY97h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A digital caliper is a must have for precision 3d printing.  There are many brands available that run from complete junk at the cheap end to a fine precision tool at the more expensive end.  This is one area we recommend not going cheap.  A cheap caliper will be inaccurate and inconsistent.  Our favorite brands that we have first hand experience with are Mitutoyo and Starrett.  There are many cheap brands that are really bad quality, but one that we’ve seen used with some success is Fowler.  We strongly advise you not buy one any cheaper than Fowler.  Digital calipers should be kept clean.  You must select the units you want to measure in, and then set them to zero before use.  Clean the faces of the jaws by wiping with your clean finger or a tissue, then close the jaws completely, and press the zero.  See figure 2 below.      <br/></p>"
+          }
+        },
+        "image_fWzerC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PARTS_OF_A_DIGITAL_CALIPER.jpg"
+          }
+        },
+        "caption_mjERbg": {
+          "type": "caption",
+          "settings": {
+            "caption": "The primary parts of a digital caliper",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_n6pChy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Digital Calipers can be used for measuring outside dimensions, inside dimensions, and also depth by utilizing the rod that protrudes from the center of the rail.  Care must be taken not to use too much force in taking measurements.  It’s possible to squeeze calipers hard enough to flex the steel and cause measurement errors.  Use only enough force to make the jaws fully touch the surfaces to be measured.  See figure 3 below.</p>"
+          }
+        },
+        "image_kdydRV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FIGURE_3.jpg"
+          }
+        },
+        "caption_rwp3fq": {
+          "type": "caption",
+          "settings": {
+            "caption": "The three ways that digital calipers can be used to measure",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_7tbzKC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It's important to orient the parts such that the jaws of the calipers are square to the surfaces of the parts.  Failure to do so will result in measurement errors. </p>"
+          }
+        },
+        "image_UTziWJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/figure_4.jpg"
+          }
+        },
+        "text_zFdLYR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the example below where the part isn't square with the jaws, the calipers would give a measurement larger than the true value.</p>"
+          }
+        },
+        "image_dfyfVX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/figure_5.jpg"
+          }
+        },
+        "text_jXHJxt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the example below, failure to get the internal measurement jaws of the calipers on the centerline of the ring will result in a measurement smaller than the true value.  Take time to wiggle to parts around and find the centerline by feel.  The centerline of an internal curved ring will be where the calipers read the largest value.  </p>"
+          }
+        },
+        "image_akB7X7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/figure_6.jpg"
+          }
+        },
+        "heading_gFM8K7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dowel Pins",
+            "heading_size": "h1"
+          }
+        },
+        "text_cHk8rh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Steel dowel pins are a very precise tool for measuring holes to verify fit.  When you buy a 6mm diameter steel dowel pin, it will normally have a tolerance of +.002mm to +.009mm.  You can use dowel pins to check the size of holes.  If the dowel pin will pass through the hole without force, then it is a \"slip fit\".  Of course, by wiggling the dowel pin around you and get a feel for how much slip it has.  If it will pass through but there is no wiggle room, this is called a \"bearing fit\".  It means the holes is very close to the dowel pin size, normally within .01mm larger than the pin.  If the pin will not pass through, then the hole is obviously smaller than the dowel pin.  If the pin will pass through by using a moderate amount of force, this is called an \"interference fit\".  It means that material is having to compress, or move, in order to allow the pin to pass through the hole.  </p>"
+          }
+        },
+        "image_xpTCQw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/figure_7.jpg"
+          }
+        },
+        "heading_TxagRT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ball Bearings",
+            "heading_size": "h1"
+          }
+        },
+        "text_Pk3BMw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ball Bearings are a mechanical component that has a very precision outer diameter ( O.D. ) and also a very precision inner diameter ( I.D. )  This makes them equally suitable for checking holes much in the same way dowel pins are used, and also for checking 3d printed pins or other round protrusions by fitting them to the ball bearing.  If the pin can be installed inside the I.D. of the ball bearing without forcing it, then you know the pin is smaller than the I.D. of the bearing.  If the pin fits with light interference pressure then it's pretty much the same diameter as the I.D. of the bearing.  </p>"
+          }
+        },
+        "image_EGaNnC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/figure_8.jpg"
+          }
+        },
+        "text_Dnz9Xa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Two other tools worth noting are some form of magnification and a deburring tool.  Magnification is so important for inspecting parts, and looking for defects in layers or for bulging areas of a wall.  And a deburring tool is equally helpful in smoothly removing the sharp edges around a part, or for removing a brim.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HUqM47",
+        "text_67RNkA",
+        "image_MKbjC3",
+        "heading_zenteg",
+        "text_VBjVjc",
+        "image_AaUDfc",
+        "caption_g3hmHQ",
+        "heading_gEnPEM",
+        "text_7QY97h",
+        "image_fWzerC",
+        "caption_mjERbg",
+        "text_n6pChy",
+        "image_kdydRV",
+        "caption_rwp3fq",
+        "text_7tbzKC",
+        "image_UTziWJ",
+        "text_zFdLYR",
+        "image_dfyfVX",
+        "text_jXHJxt",
+        "image_akB7X7",
+        "heading_gFM8K7",
+        "text_cHk8rh",
+        "image_xpTCQw",
+        "heading_TxagRT",
+        "text_Pk3BMw",
+        "image_EGaNnC",
+        "text_Dnz9Xa"
+      ],
+      "settings": {
+        "title": "Content Navigation",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "progressive_menu_iibVge",
+    "rich_text_image_YCFVYg"
+  ]
+}

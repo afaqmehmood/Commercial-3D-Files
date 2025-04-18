@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "progressive_menu_iibVge": {
+      "type": "progressive-menu",
+      "settings": {}
+    },
+    "rich_text_image_YCFVYg": {
+      "type": "rich-text-image",
+      "blocks": {
+        "heading_zenteg": {
+          "type": "heading",
+          "settings": {
+            "heading": "PAGE UNDER DEVELOPMENT.  CHECK BACK LATER.",
+            "heading_size": "h1"
+          }
+        },
+        "text_VBjVjc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_fBeG7P": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "image_YbTTQV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hexbitrack2.jpg"
+          }
+        },
+        "heading_gEnPEM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand 2",
+            "heading_size": "h1"
+          }
+        },
+        "text_7QY97h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "image_fWzerC": {
+          "type": "image",
+          "settings": {}
+        },
+        "heading_Y3AedQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand 3",
+            "heading_size": "h1"
+          }
+        },
+        "text_n6pChy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "image_kdydRV": {
+          "type": "image",
+          "settings": {}
+        },
+        "caption_XTxXrQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "caption test line",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_AdfYeB": {
+          "type": "heading",
+          "settings": {
+            "heading": "john's test heading",
+            "heading_size": "h1"
+          }
+        },
+        "text_tGDAeM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>johns test text</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zenteg",
+        "text_VBjVjc",
+        "button_fBeG7P",
+        "image_YbTTQV",
+        "heading_gEnPEM",
+        "text_7QY97h",
+        "image_fWzerC",
+        "heading_Y3AedQ",
+        "text_n6pChy",
+        "image_kdydRV",
+        "caption_XTxXrQ",
+        "heading_AdfYeB",
+        "text_tGDAeM"
+      ],
+      "settings": {
+        "title": "Contents",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "progressive_menu_iibVge",
+    "rich_text_image_YCFVYg"
+  ]
+}

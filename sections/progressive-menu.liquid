@@ -1,0 +1,168 @@
+{% stylesheet %}
+.section-progress-nav {
+  position: sticky;
+  top: 20px;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding-right: 1rem;
+  left: 20px;
+  z-index: 1;
+  max-width: 20%;
+  transition: top 0.3s ease;
+}
+
+.progress-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.progress-nav > .nav-wrapper > ul > li > a {
+  display: block;
+  padding: 10px 14px;
+  color: #888;
+  font-size: 16px;
+  font-weight: 500;
+  border-left: 3px solid transparent;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+  transition: all 0.25s ease;
+}
+
+.progress-nav a.active-main {
+  color: #111;
+  background-color: #f4f4f4;
+}
+
+.progress-nav li ul {
+  padding-left: 1rem;
+}
+
+.progress-nav li ul li a {
+  display: block;
+  padding: 6px 14px;
+  font-size: 14px;
+  color: #aaa;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.progress-nav li ul li a.active-child {
+  font-weight: 600;
+  color: #000;
+  background: #eaeaea;
+}
+
+/* Animated Tracker */
+.nav-border-tracker {
+  display: inline-block !important;
+  position: absolute;
+  left: 0;
+  width: 3px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 2px;
+  transition: transform 0.3s ease, height 0.3s ease;
+  transform: translateY(0);
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Mobile Styles */
+.mobile-toggle {
+  display: none;
+  background: #000;
+  color: #fff;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-progress-nav {
+    max-width: 100%;
+    left: 0;
+    padding: 0;
+  }
+
+  .progress-nav .nav-wrapper {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  .mobile-toggle {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .nav-border-tracker {
+    display: none !important;
+  }
+}
+{% endstylesheet %}
+
+<div 
+  x-data="progressNav()" 
+  x-init="init" 
+  class="progress-nav"
+>
+  <!-- Mobile toggle button -->
+  <div class="mobile-toggle" @click="menuOpen = !menuOpen">
+    <span x-text="menuOpen ? 'Close Menu' : 'Open Menu'"></span>
+  </div>
+
+  <!-- Menu -->
+  <div class="nav-wrapper" style="position: relative;" x-show="menuOpen || window.innerWidth > 768" x-transition>
+    <div x-ref="tracker" class="nav-border-tracker"></div>
+
+    <ul>
+      <template x-for="item in items" :key="item.id">
+        <li>
+          <a
+            href="javascript:void(0)"
+            @click="scrollTo(item.id); if (window.innerWidth <= 768) menuOpen = false"
+            :data-id="item.id"
+            :class="{ 'active-main active': item.id === activeSection }"
+            x-text="item.title"
+            @mouseenter="moveTracker($event.target)"
+          ></a>
+
+          <ul>
+            <template x-for="child in item.children" :key="child.id">
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  @click="scrollTo(child.id); if (window.innerWidth <= 768) menuOpen = false"
+                  :class="{ 'active-child active': child.id === activeBlock }"
+                  x-text="child.title"
+                  :data-id="child.id"
+                  @mouseenter="moveTracker($event.target)"
+                ></a>
+              </li>
+            </template>
+          </ul>
+        </li>
+      </template>
+    </ul>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Progressive menu",
+    "class": "section-progress-nav",
+    "enabled_on": {
+      "templates": ["page"]
+    },
+    "settings": [],
+    "presets": [
+      {
+        "name": "Progressive menu"
+      }
+    ]
+  }
+{% endschema %}
