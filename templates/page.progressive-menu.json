@@ -155,7 +155,7 @@
         "text_cHk8rh": {
           "type": "text",
           "settings": {
-            "text": "<p>Steel dowel pins are a very precise tool for measuring holes to verify fit.  When you buy a 6mm diameter steel dowel pin, it will normally have a tolerance of +.002mm to +.009mm.  You can use dowel pins to check the size of holes.  If the dowel pin will pass through the hole without force, then it is a \"slip fit\".  Of course, by wiggling the dowel pin around you and get a feel for how much slip it has.  If it will pass through but there is no wiggle room, this is called a \"bearing fit\".  It means the holes is very close to the dowel pin size, normally within .01mm larger than the pin.  If the pin will not pass through, then the hole is obviously smaller than the dowel pin.  If the pin will pass through by using a moderate amount of force, this is called an \"interference fit\".  It means that material is having to compress, or move, in order to allow the pin to pass through the hole.  </p>"
+            "text": "<p>Steel dowel pins are a very precise tool for measuring holes to verify fit.  When you buy a 6mm diameter steel dowel pin, it will normally have a tolerance of +.002mm to +.009mm.  You can use dowel pins to check the size of holes.  If the dowel pin will pass through the hole without force, then it is a \"slip fit\".  Of course, by wiggling the dowel pin around you and get a feel for how much slip it has.  If it will pass through but there is no wiggle room, this is called a \"bearing fit\".  It means the holes is very close to the dowel pin size, normally within .01mm larger than the pin.  If the pin will not pass through, then the hole is obviously smaller than the dowel pin.  If the pin will pass through by using a moderate amount of force, this is called an \"interference fit\".  It means that material is having to compress, or move, in order to allow the pin to pass through the hole.  An interference fit is on a sliding scale from very tight, requiring a mechanical press to force the parts together, all the way to just tight enough to prevent the pins from passing through freely.    Somewhere at the very light end of the interference fit scale we pass into the realm of slip fit.  If the pin will fall through by gravity, this is for sure a slip fit.   But it can also be considered a slip fit if the pin only requires the lightest force to make it pass through the hole.  Further along the scale we move into a slip fit where you can feel some slight movement of the pin if you wiggle it.  By controlling the size of your extrusions and the size you 3d model a hole at, you can control the fit of the holes in your parts relative to precision dowel pins. </p>"
           }
         },
         "image_xpTCQw": {
@@ -183,10 +183,41 @@
             "image": "shopify://shop_images/figure_8.jpg"
           }
         },
+        "image_Pc9mp4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fit_check_with_dowel_pin_and_bearing.jpg"
+          }
+        },
         "text_Dnz9Xa": {
           "type": "text",
           "settings": {
-            "text": "<p>Two other tools worth noting are some form of magnification and a deburring tool.  Magnification is so important for inspecting parts, and looking for defects in layers or for bulging areas of a wall.  And a deburring tool is equally helpful in smoothly removing the sharp edges around a part, or for removing a brim.  </p>"
+            "text": "<p> The image below shows an example of using both a dowel pin for checking the size of a hole, and a ball bearing for checking the size of a pin or shaft.  In both cases the 3d printed objects require a light force for the dowel pin to be inserted in the hole or the pin to be inserted into the ball bearing, indicating a very precision fit.  </p>"
+          }
+        },
+        "heading_jJGEkG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Magnification",
+            "heading_size": "h1"
+          }
+        },
+        "text_cpDtfp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Two other tools worth noting are some form of magnification and a deburring tool.  Magnification is so important for inspecting parts, and looking for defects in layers or for bulging areas of a wall.  And a deburring tool is equally helpful in smoothly removing the sharp edges around a part, or for removing a brim. (refer to figure 1 at the top) </p>"
+          }
+        },
+        "text_7KfkH8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the example below, using magnification would greatly enhance the ability to see fine details like over-extrusion in the case of this image vs. perfect wall layers, but it also assists with seeing blobs, layer separation, seams, or bulging corners that need to be corrected with linear advance settings.  We recommend magnification with lights.  The one pictured here isn't ideal because it's very small, but it works. A larger magnifying glass with lights built in is more convenient to use. </p>"
+          }
+        },
+        "image_JMr8jp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAGNIFICATION_IN_3D_PRINTING.jpg"
           }
         }
       },
@@ -217,10 +248,64 @@
         "heading_TxagRT",
         "text_Pk3BMw",
         "image_EGaNnC",
-        "text_Dnz9Xa"
+        "image_Pc9mp4",
+        "text_Dnz9Xa",
+        "heading_jJGEkG",
+        "text_cpDtfp",
+        "text_7KfkH8",
+        "image_JMr8jp"
       ],
       "settings": {
         "title": "Content Navigation",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_image_GtpRWR": {
+      "type": "rich-text-image",
+      "blocks": {
+        "heading_chgM9e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality vs. Precision",
+            "heading_size": "h1"
+          }
+        },
+        "text_Xqjhxf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Quality and precision are not exactly the same thing.  </p>"
+          }
+        },
+        "button_xLKNWK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "image_i9BQD6": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_chgM9e",
+        "text_Xqjhxf",
+        "button_xLKNWK",
+        "image_i9BQD6"
+      ],
+      "name": "Richtext with image",
+      "settings": {
+        "title": "Quality vs Precision",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -232,6 +317,7 @@
   },
   "order": [
     "progressive_menu_iibVge",
-    "rich_text_image_YCFVYg"
+    "rich_text_image_YCFVYg",
+    "rich_text_image_GtpRWR"
   ]
 }

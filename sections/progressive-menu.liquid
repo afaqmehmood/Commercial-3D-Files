@@ -124,7 +124,7 @@
         <li>
           <a
             href="javascript:void(0)"
-            @click="scrollTo(item.id); if (window.innerWidth <= 768) menuOpen = false"
+            @click="scrollTo(item.id, $event.target); if (window.innerWidth <= 768) menuOpen = false"
             :data-id="item.id"
             :class="{ 'active-main active': item.id === activeSection }"
             x-text="item.title"
@@ -136,7 +136,7 @@
               <li>
                 <a
                   href="javascript:void(0)"
-                  @click="scrollTo(child.id); if (window.innerWidth <= 768) menuOpen = false"
+                  @click="scrollTo(child.id, $event.target); if (window.innerWidth <= 768) menuOpen = false"
                   :class="{ 'active-child active': child.id === activeBlock }"
                   x-text="child.title"
                   :data-id="child.id"

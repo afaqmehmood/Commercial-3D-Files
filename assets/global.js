@@ -1397,7 +1397,7 @@ document.addEventListener('alpine:init', () => {
         navEl.style.top = isHeaderVisible ? `${headerHeight}px` : `20px`;
       }
       if (progressive_Section) {
-        progressive_Section.style.transform = isHeaderVisible ? `translateY(-${navEl.offsetHeight}px)` : `translateY(0px)`;
+        progressive_Section.style.transform = navEl ? `translateY(-${navEl.offsetHeight}px)` : `translateY(0px)`;
       }
     },
 

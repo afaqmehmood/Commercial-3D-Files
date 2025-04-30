@@ -19,71 +19,145 @@
         "heading_zenteg": {
           "type": "heading",
           "settings": {
-            "heading": "PAGE UNDER DEVELOPMENT.  CHECK BACK LATER.",
+            "heading": "RC CONTROLS FOR BEGINNERS",
             "heading_size": "h1"
           }
         },
         "text_VBjVjc": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Our hope in sharing this information is to provide a very concise overview of how RC controls work for those who are just starting out, and would rather not piece it all together by watching a hundred YouTube videos.  </p>"
           }
         },
-        "button_fBeG7P": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "image_YbTTQV": {
+        "image_9p3aUE": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hexbitrack2.jpg"
+            "image": "shopify://shop_images/RC_OVERVIEW.jpg"
+          }
+        },
+        "caption_9C43zx": {
+          "type": "caption",
+          "settings": {
+            "caption": "Basic Overview of RC Devices and What They Connect To",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         },
         "heading_gEnPEM": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand 2",
+            "heading": "RC RADIOS",
             "heading_size": "h1"
           }
         },
         "text_7QY97h": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>An RC radio, otherwise known as a transmitter, is the hand held device where the user manipulates joy sticks ( gimbals) and switches to control the RC toy.  Two of the more popular brands today are Radiomaster and FRSky.  The radio communicates wirelessly with an RC receiver.  The receiver is installed on the RC toy and translates the signals from the radio into output commands to control motors and servos.  Most radios have two Gimbals with forward and back motion as well as left and right motion.  Each of these motions represents a different input control, or channel.  With most programmable radios you can configure in the firmware (software) which channel is mapped to which input.  For example, the forward and backward motion of the right gimbal could be mapped to control channel 1 on the receiver.  The communication between the radio and the receiver is called a Tx protocol (the T stands for transmitter), which refers to the language, or frequency that these device communicate on.  Examples of TX protocols are ExpressLRS and TBS Crossfire.  You must use a radio and receiver that have the same protocol in order for them to link and communicate.  </p>"
           }
         },
         "image_fWzerC": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Boxer-details-layout.jpg"
+          }
+        },
+        "caption_k7zWEm": {
+          "type": "caption",
+          "settings": {
+            "caption": "Radiomaster Boxer Radio Layout",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_FXfPyy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RC radios are highly configurable.  You can control a tremendous range of things through the firmware, such as causing the gimbals to control different channels by flipping a toggle switch on the radio.  Switches on the radio can be mapped to other channels to control things that are not proportional, meaning they are only on or off controls, like turning on or off lights, or raising and lowering landing gear.  </p>"
+          }
         },
         "heading_Y3AedQ": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand 3",
+            "heading": "RC Receivers",
             "heading_size": "h1"
           }
         },
         "text_n6pChy": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>The RC receiver is the part that communicates wirelessly with the radio, and receives the wireless commands, and then sends out those commands through the various channels to control motors and servos.  Receivers for RC land devices are usually a little different from those for flight devices.  The receiver will have antenna wires for picking up the signals from the radio.  The receiver will also have a place for receiving power from a voltage supply device like an BEC (battery elimination circuit).  More about connections later.  The receiver will also have pin connections that are for each of the channels.  A receiver normally has a fixed number of output channels, like 4 or 8 for example. The communication between the receiver and the devices it will control is called an Rx protocol (the R stands for Receiver). Unlike Tx protocols, Rx protocols are wired, meaning physical wires connect the receiver to the devices it will control. </p>"
           }
         },
         "image_kdydRV": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Radiomaster_ER8_Receiver.jpg"
+          }
         },
         "caption_XTxXrQ": {
           "type": "caption",
           "settings": {
-            "caption": "caption test line",
+            "caption": "Radiomaster ER8 Receiver",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_MKMcwx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Receivers communicate with downstream devices using an Rx protocol.  There are many of these protocols to choose from, but one of the most common is PWM, or pulse width modulation.  Do not confuse this with pulse frequency.  The receiver sends a pulse every so many milliseconds ( ms ).  It's the width of that pulse that determines the command (See image below).  With RC, the width of the signal pulse normally varies between 1000µs and 2000µs (micro seconds), with 1000µs being the minimum & 2000µs the maximum.  So this range will determine the behavior of down stream devices.  Motors and servos normally have a neutral position which is 1500µs pulse width for a stopped motor and for a non-continuous servo 1500µs would be center position.  The minimum pulse of 1000µs width will cause motors to turn max speed in one direction, and the maximum pulse width of 2000µs will push them to maximum RPM in the other direction, normally.  Although the behavior of all this can be highly configured by the radio.  For example the throttle control on a plane propeller never needs to turn in reverse.  So the radio can be set so one of the gimbals is at rest in the full back position and it applies power to the propeller motor all in one direction as the user pushed the gimbal through it's full range of motion from back to forward.  </p>"
+          }
+        },
+        "image_RXkRL6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pulse_Width_Modulation.jpg"
+          }
+        },
+        "heading_TNNW3E": {
+          "type": "heading",
+          "settings": {
+            "heading": "RC Servos",
+            "heading_size": "h1"
+          }
+        },
+        "text_BBzrfp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An RC servo is basically a dc motor, but one that has the ability to control its position of rotation and stop at almost any position within its range of motion.  Servos come in both analogue and digital, and they also come as either positional or continuous.  A continuous servo will rotate like any other motor, but with more control over speed and the position it can stop at.  A positional servo has a specific range of rotation such as 90, 180, or 360 degrees.  Positional rotation servos will cycle to any position within their range of rotation, based on the input from the radio, or specifically the width of the pulses it is receiving from the receiver.  Servos are connected to and control the flight surfaces such as ailerons, elevators, and rudders on RC planes.  They also control steering on RC land based devices such as cars and crawlers.  <br/></p>"
+          }
+        },
+        "image_ptgpYK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/servos_controlling_ailerons_and_steering.jpg"
+          }
+        },
+        "caption_3AAWam": {
+          "type": "caption",
+          "settings": {
+            "caption": "RC Servos Connected to Ailerons and Steering Linkage",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_ewAhJt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Continuous rotation servos basically behave the same way as motors, described above.  With positional servos, there is normally a neutral position configured for the servo, which would be the position it would return to if you take your hands off the gimbals or steering wheel.  For example in an RC car, neutral would be set up such that at neutral position the front wheels of an RC car would track straight.  Neutral would be represented by 1500µs pulse width.  Moving the steering control on a radio to the maximum in one direction would output a pulse width of 1000µs and cause full servo actuation in one direction, and thus full steering turn in one direction.  Moving the same radio control to the maximum opposite position would output 2000µs pulse width and cause the same maximum steering, but in the opposite direction. The output between neutral and full is proportional.  So a steering control position 25% of the way from neutral to full would send pulse widths that move the servo 25% of it's rotation in one direction from neutral to full, and 50% on the steering control would do the same at 50% servo position and thus 50% of steering angle.  This description is a bit over simplified but it's the most common scenario and conveys the concept correctly.  All of this is highly configurable via the radio.  You can set neutral to any position and adjust the range of motion through the firmware of your programmable radio.  </p>"
+          }
+        },
+        "image_LyHXgF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rc_servo_rotation_example_2.jpg"
+          }
+        },
+        "caption_naPWdE": {
+          "type": "caption",
+          "settings": {
+            "caption": "Image Illustrating the Range of Motion of a 180 Degree RC Servo",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -91,34 +165,317 @@
         "heading_AdfYeB": {
           "type": "heading",
           "settings": {
-            "heading": "john's test heading",
+            "heading": "Electronic Speed Controllers (ESC)",
             "heading_size": "h1"
           }
         },
         "text_tGDAeM": {
           "type": "text",
           "settings": {
-            "text": "<p>johns test text</p>"
+            "text": "<p>An electronic speed controller is commonly called an ESC, and there are different kinds, namely brushed and brushless.  A brushed ESC is for a brushed DC motor.  I will spare you the explaination of brushed motors vs. brushless motors, you can google that. The connection between the esc and a brushed motor is 2 wires, + dc voltage and - or neutral.  Thus a brushed motor only has 2 wires or connection points.  The direction of rotation, clockwise vs counter clockwise, involves switching the + and the - voltage being sent to the two wires or connection points on the motor.  Speed is determined by voltage from zero to the maximum allowed voltage for the given motor.  And the speed controller ( ESC ) calculates what voltage to send to the motor based on the pulse width modulation, or width of the pulses being sent from the radio to the receiver.   Brushless DC motors are more like a 3 phase motor, and use 3 wires to connect to the ESC.  The brushless ESC controls both speed and direction of the motor by how it sends the voltage signals to the 3 connecting wires.</p>"
+          }
+        },
+        "image_mzRfCX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/esc_to_motor_connections.jpg"
+          }
+        },
+        "caption_wpHA77": {
+          "type": "caption",
+          "settings": {
+            "caption": "ESC Connections to Brushed and Brushless Motors",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_gnxUda": {
+          "type": "heading",
+          "settings": {
+            "heading": "RC Connectors",
+            "heading_size": "h1"
+          }
+        },
+        "text_jV9jYg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Several different kinds of electrical connectors are used in the RC world.  We will examine each in some detail below.  The first image below gives some terminalogy about the different parts that make up an electrical connector. </p>"
+          }
+        },
+        "image_hCxLie": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RC_CONNECTOR_TERMINOLOGY.jpg"
+          }
+        },
+        "caption_GQNff4": {
+          "type": "caption",
+          "settings": {
+            "caption": "Diagram of the DIfferent Parts of an Electrical Connector",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_p8AMCD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Futaba / JR Connector",
+            "heading_size": "h1"
+          }
+        },
+        "text_EgimtX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Futaba/JR connector is a 3 wire plug that connects to the receiver and carries the signal to down stream devices like servos and electronic speed controllers.  See image below.  These connectors have a signal wire (PWM), and + voltage wire, and a ground or neutral wire. The wire color pattern isn't always the same.  Refer to the image for servos below for an example of wire color patterns.  Most of the time the male end has pins or plugs and the female end has receivers or sockets.  However, on the Futaba/JR connector, the male and female labels refer to the housing, not the terminals.  And the male housing has sockets inside of it while the female housing has the pins.  I know, it's wonky.  Don't think about it too much......</p>"
+          }
+        },
+        "image_AVBqjr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Futaba_JR_plugs.jpg"
+          }
+        },
+        "caption_4FiHyc": {
+          "type": "caption",
+          "settings": {
+            "caption": "Futaba/JR Connector Diagram",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_yAbEmg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bullet / Banana Connector",
+            "heading_size": "h1"
+          }
+        },
+        "text_zyrgEY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Bullet connector (called Banana connector if you are from banana country) is an easy and fast way to make high current connections such as when charging batteries or running motors. Many battery chargers use this type of connection.  You can buy premade cables or just the ends and solder them onto your own wires.  There are many sizes of these available. As the positive and negative wires both use the same connector, take care to get this right using the wire colors.  If you plug these in reversed you can fry sensitive electronics.  2mm-8mm is the range of  sizes used in RC cars, with 4mm and 5mm being the most common.  There are many different brands and styles of banana plugs, and the amperage rating and recommended wire size varies greatly across the industry.  Because of this we will not quote any specs here.  It is best to get the specs for amp rating and wire size for the exact banana plug you buy.  Step carefully here.  In the RC world, you will find statements online for banana plugs that will say something like \"rated for 40 amps, 14 AWG wire\".  This is absurd, because on every electrical chart a 14 AWG is only rated for 15 amps.  What these statements mean is the plug can handle 40 amps and accept a 14 AWG wire.  This does NOT mean a 14 AWG wire can handle 40 amps.  The limiting factor is the wire size.  If you push too many amps through too small of a wire, it will overheat and can catch on fire. Proceed with caution.  </p>"
+          }
+        },
+        "image_qkB3yW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bullet_banana_connectors.jpg"
+          }
+        },
+        "caption_8Xx7yJ": {
+          "type": "caption",
+          "settings": {
+            "caption": "Examples of Bullet / Banana Connectors",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_bNnbdW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Deans / T-Plug Connector",
+            "heading_size": "h1"
+          }
+        },
+        "text_djLhGN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Deans or T-Plug connector is commonly used with modern LiPO (Lithium Polymere) batteries and it has been an industry standard in the past. There are other battery connectors that are more popular now, but being simple and most importantly cheap it is still a very popular RC-lipo connector today. This plug has the advantage of only allowing a connection one way, due to the orientation of the spring plugs.  Provided the wires are always connected correctly, it's impossible to accidently reverse polarity with this plug. </p>"
+          }
+        },
+        "image_CFpLQP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Deans_T_Plug.jpg"
+          }
+        },
+        "caption_NJPB8N": {
+          "type": "caption",
+          "settings": {
+            "caption": "Dean's or T Plug Connector",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_8PNpwg": {
+          "type": "heading",
+          "settings": {
+            "heading": "XT Connectors",
+            "heading_size": "h1"
+          }
+        },
+        "text_RBtUE6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>XT connectors have come along as a replacement for the older T plugs in making LIPO battery connections for RC applications.  It's basically a bullet connector with a high temperature nylon housing that only allows the user to connect in one orientation, thereby eliminating the chance for a reverse polarity connection.  There are 3 different sizes of XT connectors, but XT-60 is the most common for battery connections today.  The Larger XT-90 is used for very high current applications such as 1:8 scale RC crawlers or cars.  As with bullet / banana connectors, the connector itself is usually rated for much higher current than the wire size that can be soldered to it.  Be careful to use a sufficient wire size for the amps that you need it to carry.  <br/></p>"
+          }
+        },
+        "image_8WmGm6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/xt_connectors.jpg"
+          }
+        },
+        "caption_dbWdKi": {
+          "type": "caption",
+          "settings": {
+            "caption": "Different sizes of XT connectors",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_qVGbrM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Other RC Power Connectors",
+            "heading_size": "h1"
+          }
+        },
+        "text_KcmgVH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The other RC battery connectors are all less common and are shown below.  </p>"
+          }
+        },
+        "heading_AfhRLr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Receiver to Servo Connections",
+            "heading_size": "h1"
+          }
+        },
+        "image_wmTpAa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RC_receiver_to_servo_connections.jpg"
           }
         }
       },
       "block_order": [
         "heading_zenteg",
         "text_VBjVjc",
-        "button_fBeG7P",
-        "image_YbTTQV",
+        "image_9p3aUE",
+        "caption_9C43zx",
         "heading_gEnPEM",
         "text_7QY97h",
         "image_fWzerC",
+        "caption_k7zWEm",
+        "text_FXfPyy",
         "heading_Y3AedQ",
         "text_n6pChy",
         "image_kdydRV",
         "caption_XTxXrQ",
+        "text_MKMcwx",
+        "image_RXkRL6",
+        "heading_TNNW3E",
+        "text_BBzrfp",
+        "image_ptgpYK",
+        "caption_3AAWam",
+        "text_ewAhJt",
+        "image_LyHXgF",
+        "caption_naPWdE",
         "heading_AdfYeB",
-        "text_tGDAeM"
+        "text_tGDAeM",
+        "image_mzRfCX",
+        "caption_wpHA77",
+        "heading_gnxUda",
+        "text_jV9jYg",
+        "image_hCxLie",
+        "caption_GQNff4",
+        "heading_p8AMCD",
+        "text_EgimtX",
+        "image_AVBqjr",
+        "caption_4FiHyc",
+        "heading_yAbEmg",
+        "text_zyrgEY",
+        "image_qkB3yW",
+        "caption_8Xx7yJ",
+        "heading_bNnbdW",
+        "text_djLhGN",
+        "image_CFpLQP",
+        "caption_NJPB8N",
+        "heading_8PNpwg",
+        "text_RBtUE6",
+        "image_8WmGm6",
+        "caption_dbWdKi",
+        "heading_qVGbrM",
+        "text_KcmgVH",
+        "heading_AfhRLr",
+        "image_wmTpAa"
       ],
       "settings": {
         "title": "Contents",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_image_nW3PX7": {
+      "type": "rich-text-image",
+      "blocks": {
+        "heading_4gPR3W": {
+          "type": "heading",
+          "settings": {
+            "heading": "RC Connectors",
+            "heading_size": "h1"
+          }
+        },
+        "text_jHcKCe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Several different kinds of electrical connectors are used in the RC world.  We will examine each in some detail below.  The first image below gives some terminalogy about the different parts that make up an electrical connector. </p>"
+          }
+        },
+        "image_6WrCgk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RC_CONNECTOR_TERMINOLOGY.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4gPR3W",
+        "text_jHcKCe",
+        "image_6WrCgk"
+      ],
+      "name": "Richtext with image",
+      "settings": {
+        "title": "RC Connectors",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_image_CCei8w": {
+      "type": "rich-text-image",
+      "blocks": {
+        "text_iDk7XG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Several different kinds of electrical connectors are used in the RC world.  We will examine each in some detail below.  The first image below gives some terminalogy about the different parts that make up an electrical connector. </p>"
+          }
+        },
+        "image_nwrDfa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RC_CONNECTOR_TERMINOLOGY.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_iDk7XG",
+        "image_nwrDfa"
+      ],
+      "disabled": true,
+      "name": "Richtext with image",
+      "settings": {
+        "title": "Section",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -130,6 +487,8 @@
   },
   "order": [
     "progressive_menu_iibVge",
-    "rich_text_image_YCFVYg"
+    "rich_text_image_YCFVYg",
+    "rich_text_image_nW3PX7",
+    "rich_text_image_CCei8w"
   ]
 }

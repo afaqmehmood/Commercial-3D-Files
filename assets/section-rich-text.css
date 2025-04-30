@@ -86,7 +86,8 @@
 }
 
 .progressive-section {
-  transform: translateY(-8%);
+  /* transform: translateY(-8%); */
+  /* position: relative; */
 }
 
 .responsive-image-wrapper img,
