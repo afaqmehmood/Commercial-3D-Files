@@ -1389,11 +1389,15 @@ document.addEventListener('alpine:init', () => {
     setTopOffset() {
       const header = document.querySelector('header');
       const navEl = document.querySelector('.section-progress-nav');
+      const progressive_Section = document.querySelector('.progressive-section');
       if (header && navEl) {
         const headerRect = header.getBoundingClientRect();
         const headerHeight = header.offsetHeight;
         const isHeaderVisible = headerRect.top == 0;
         navEl.style.top = isHeaderVisible ? `${headerHeight}px` : `20px`;
+      }
+      if (progressive_Section) {
+        progressive_Section.style.transform = isHeaderVisible ? `translateY(-${navEl.offsetHeight}px)` : `translateY(0px)`;
       }
     },
 
